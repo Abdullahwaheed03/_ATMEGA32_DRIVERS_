@@ -1,5 +1,10 @@
+# ATmega32 Full Drivers
 
-# 
- <span> AUTHOR : ABDULLAH WAHEED </span> 
- DATE   : 2025 - 2 - 28 
- BRIEF  : ATMEGA32 FULL DRIVERS 
+## Author
+**Abdullah Waheed**
+
+## Date
+**February 28, 2025**
+
+## Brief
+This repository contains full drivers for the ATmega32 microcontroller.
