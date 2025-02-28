@@ -1,0 +1,14 @@
+#ifndef USART_PRIVATE_H_
+#define USART_PRIVATE_H_
+
+#include "LIB/BITMATH.h"
+
+#define UDR    REGISTER(0X2C)
+#define UCSRA  REGISTER(0X2B)
+#define UCSRB  REGISTER(0X2A)
+#define UCSRC  REGISTER(0X40)
+#define UBRRL  REGISTER(0X29)
+#define UBRRH  REGISTER(0X40)
+
+
+#endif /* USART_PRIVATE_H_ */

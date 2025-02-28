@@ -1,0 +1,35 @@
+/*
+ * TIMERS_PRIVATE.h
+ *
+ * Created: 1/21/2025 12:27:28 AM
+ *  Author: Eng_A
+ */ 
+
+
+#ifndef TIMERS_PRIVATE_H_
+#define TIMERS_PRIVATE_H_
+
+#define TIMSK REGISTER(0X59)
+#define TIFR  REGISTER(0X58)
+
+
+#define TCCR0 REGISTER(0X53) 
+#define TCNT0 REGISTER(0X52)
+#define OCR0  REGISTER(0X5C)
+
+
+
+#define TCCR2 REGISTER(0X45)
+#define TCNT2 REGISTER(0X44)
+#define OCR2  REGISTER(0X43)
+
+#define WDTCR REGISTER(0X41)
+
+#define TCCR1A REGISTER(0x4F)
+#define TCCR1B REGISTER(0x4E)
+#define TCNT1 REGISTER16(0x4C)
+#define OCR1A REGISTER16(0x4A)
+#define OCR1B REGISTER16(0x48)
+#define ICR1 REGISTER(0x46)
+
+#endif /* TIMERS_PRIVATE_H_ */

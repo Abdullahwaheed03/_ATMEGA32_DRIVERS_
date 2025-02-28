@@ -1,0 +1,56 @@
+#ifndef SPI_CONFIG_H_
+#define SPI_CONFIG_H_
+#include "MCAL/DIO/DIO_INTERFACE.h"
+
+
+
+#define SPI_INT  1
+
+
+typedef enum
+{
+	SLAVE,
+	MASTER,
+}SPI_MODES;
+
+typedef enum
+{
+	MSB,
+	LSB
+}SPI_DATA_ORDER;
+
+typedef enum
+{
+	CPU_CLKD4,
+	CPU_CLKD16,
+	CPU_CLKD64,
+	CPU_CLKD128,
+	CPU_CLKD2,
+	CPU_CLKD8,
+	CPU_CLKD32,
+	CPU_CLKD64_DTS,
+}SPI_FREQ;
+
+typedef enum
+{
+	IDLE_LOW,
+	IDLE_HIGH,
+	
+}SPI_CPOL;
+typedef enum
+{
+	SAMPLE_LEADING_SETUP_TRAILLING,
+	SAMPLE_TRAILLING_SETUP_LEADING
+}SPI_CPHA;
+typedef struct
+{
+	SPI_MODES M ;
+	SPI_FREQ FREQ ;
+	SPI_DATA_ORDER ORDER ;
+	SPI_CPOL CPOL ;
+	SPI_CPHA CPHA ;
+	PORTS SS_PORT ;
+	PINS SS_PIN ;
+	}SPI_CONF;
+
+#endif /* SPI_CONFIG_H_ */

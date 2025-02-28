@@ -1,0 +1,12 @@
+#ifndef EEPROM_PRIVATE_H_
+#define EEPROM_PRIVATE_H_
+
+#include "LIB/BITMATH.h"
+
+
+#define EEAR REGISTER16(0X3E)
+#define EEDR REGISTER(0X3D)
+#define EECR REGISTER(0X3C)
+
+
+#endif /* EEPROM_PRIVATE_H_ */
