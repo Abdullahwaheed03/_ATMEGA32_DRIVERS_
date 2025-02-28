@@ -1,1 +1,4 @@
-# readme file 
+#
+# @AUTHOR : ABDULLAH WAHEED 
+# @DATE   : 2025 - 2 - 28 
+# @BRIEF  : ATMEGA32 FULL DRIVERS 
