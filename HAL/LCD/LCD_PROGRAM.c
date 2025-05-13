@@ -11,27 +11,27 @@
 /*  YOU HAVE TWO OPTIONS                                                                       YOU HAVE TWO OPTIONS   
                                                  
   1-  SEND COMMAND                                                                                1-  SEND COMMAND 
-  2-  SEND DATA 														                          2-  SEND DATA 
+  2-  SEND DATA 										  2-  SEND DATA 
   
   FIRSTLY TO SEND COMMANDS YOU HAVE TO FOLLOW THIS 						    FIRSTLY TO SEND COMMANDS YOU HAVE TO FOLLOW THIS
-  1-   SEND COMMAND ON DATA PORT 											                        1-   SEND  MSBS FROM COMMAND ON DATA PINS 
-  2-   REST RS PIN 															                        2-   REST RS PIN 
-  3-   SET  EN PIN																                    3-   SET  EN PIN
-  4-   WAIT FOR SMALL DELAY 100US TO 1MS										                    4-   WAIT FOR SMALL DELAY 100US TO 1MS
-  5-   RESET EN PIN																	                5-   RESET EN PIN
-  6-   WAIT FOR SMALL DELAY 100US TO 1MS												            6-   SEND  LSBS FROM COMMAND ON DATA PINS
-  																						            7-   SET  EN PIN
-									  															    8-   RESET EN PIN
+  1-   SEND COMMAND ON DATA PORT 								  1-   SEND  MSBS FROM COMMAND ON DATA PINS 
+  2-   REST RS PIN 									          2-   REST RS PIN 
+  3-   SET  EN PIN										  3-   SET  EN PIN
+  4-   WAIT FOR SMALL DELAY 100US TO 1MS							  4-   WAIT FOR SMALL DELAY 100US TO 1MS
+  5-   RESET EN PIN										  5-   RESET EN PIN
+  6-   WAIT FOR SMALL DELAY 100US TO 1MS							  6-   SEND  LSBS FROM COMMAND ON DATA PINS
+  												  7-   SET  EN PIN
+									  			  8-   RESET EN PIN
 									  													   
   AFTER INIT LCD  TO SEND DATA FOLLOW THIS                                                       AFTER INIT LCD  TO SEND DATA FOLLOW THIS 
-  			                             														    1-   SEND  MSBS FROM DATA ON DATA PINS
-   1-   SEND DATA ON DATA PORT																		2-   SET RS PIN 
-   2-   SET RS PIN																				    3-   SET  EN PIN
-   3-   SET  EN PIN																				    4-   WAIT FOR SMALL DELAY 100US TO 1MS
-   4-   WAIT FOR SMALL DELAY 100US TO 1MS														    5-   RESET EN PIN
-   5-   RESET EN PIN																			    6-   SEND  MSBS FROM DATA ON DATA PINS
-   6-   WAIT FOR SMALL DELAY 100US TO 1MS															7-   SET  EN PIN
-   																								    8-   RESET EN PIN
+  			                             						  1-   SEND  MSBS FROM DATA ON DATA PINS
+   1-   SEND DATA ON DATA PORT									  2-   SET RS PIN 
+   2-   SET RS PIN									          3-   SET  EN PIN
+   3-   SET  EN PIN										  4-   WAIT FOR SMALL DELAY 100US TO 1MS
+   4-   WAIT FOR SMALL DELAY 100US TO 1MS							  5-   RESET EN PIN
+   5-   RESET EN PIN										  6-   SEND  MSBS FROM DATA ON DATA PINS
+   6-   WAIT FOR SMALL DELAY 100US TO 1MS							  7-   SET  EN PIN
+   												  8-   RESET EN PIN
 																									   
    /*************************************************************/
 
